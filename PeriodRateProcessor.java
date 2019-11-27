@@ -48,8 +48,8 @@ public class PeriodRateProcessor {
 		
 		int num = 0;
 	    Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-		String connUrl = "jdbc:sqlserver://10.2.4.4:1433;databaseName=PCIS";
-		Connection conn = DriverManager.getConnection(connUrl, "pcismgr", "tvpcismgr");
+		String connUrl = "jdbc:sqlserver://O.O.O.O:1433;databaseName=PCIS";
+		Connection conn = DriverManager.getConnection(connUrl, "OOO", "OOO");
 		Statement stmt = conn.createStatement();
 		stmt.execute("truncate table PeriodRate;");
 		
